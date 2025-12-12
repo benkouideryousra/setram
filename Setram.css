@@ -76,11 +76,10 @@ h6 {
 }
 
 .fin {
-  padding-left: 450px;
+  padding-left: 320px;
   color: rgb(161, 159, 159);
 }
 .go {
   list-style-type: none;
   display: flex;
 }
-
