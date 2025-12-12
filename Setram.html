@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setram</title>
+    <link rel="stylesheet" href="Setram.css" />
+  </head>
+  <body>
+    <div class="v">
+        <img src="setram logo - Copie.png " alt="logo" class="model" >
+        <h2 class="titl"> Formulaire Demande Abonnement DOU </h2>
+        
+        <ul  class="go">
+            <li><a href=#" style="padding-right: 10px;" > <button  style=" border-radius: 4px; border: 2px solid rgb(161, 159, 159);">francais </button></a></li>
+            <li><a href="https://formulaire.setram.dz/ "  style="padding-right: 20px;"><button  style=" border-radius: 4px ;border: 2px solid rgb(161, 159, 159); ">Arab</button> </a></li>
+        </ul>
+        
+    </div>
+    <div class="text">
+        <h4>Veuillez remplir tous les champs obligatoires marqués d'un astérisque (*)</h4>
+        <form>
+             <label for="lname" style="margin-left:35px;">Prénom *</label>
+              <label for="fname" style="margin-left: 275px;">Nom *</label>
+              <label for="e-mail" style="margin-left: 302px;">Adresse e-mail * </label>
+              <label for="phone" style="margin-left:235px;" >Matricule (sans année du bac au début) *</label><br>
+
+
+             <input type="text" id="lname" name="lname" style="margin-left:35px;" placeholder= "Prénom"  value required   >
+             <input type="text" id="fname" name="fname" style="margin-left: 25px;" placeholder="Nom "  >
+             <input type="" id="e-mail" name="e-mail" style="margin-left:35px;" placeholder="Exemple@gmail.com" >
+             <input type="tel" id="phone" name="phoner" style="margin-left:35px;" placeholder="sans Année du Bac au debut" > <br> <br>
+
+             <label for="quantity" style="margin-left:35px; "> Année du Baccalauréat *</label>
+             <label for="phone"  style="margin-left:165px ; "> Numéro de téléphone *</label>
+             <label for="Université" style="margin-left:185px;"> Université  *</label><br>
+
+
+             <input type="number" id="quantity" name="quantity" min="1950" max="2026" step="1"style="margin-left:35px;"">
+             <input type="tel" id="phone" name="phone" placeholder="+213----" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required  style="margin-left: 23px ;" >
+              <select id="Université" name="Université" style="margin-left:40px;" class="new" >
+
+
+                <option value=""  >Sélectionnez une université</option>
+                <option value="droit_sciences_politiques" > Droit et Sciences Politiques</option>
+                <option value="ecole_polytechnique" > École Nationale Polytechnique </option>
+                <option value="ecole_agronomique" >École Nationale Supérieure Agronomique</option>
+                <option value="ecole_cybersecurite" > École Nationale Supérieure de Cybersécurité</option>
+                <option value="ecole_journalisme" > École Nationale Supérieure de Journalisme et des Sciences de l'Information</option>
+                <option value="ecole_systemes_autonomes" >École Nationale Supérieure de Technologie des Systèmes Autonomes </option>
+                <option value="ecole_nanosciences" >École Nationale Supérieure des Nanosciences et Nanotechnologie</option>
+                <option value="ecole_sciences_mer" >École Nationale Supérieure des Sciences de la Mer et de l'Aménagement du Littoral</option>
+                <option value="ecole_sciences_politiques" >École Nationale Supérieure des Sciences Politiques</option>
+                <option value="ecole_technologies_avancees" >École Nationale Supérieure des Technologies Avancées </option>
+                <option value="ecole_travaux_publics" >École Nationale Supérieure des Travaux Publics </option>
+                <option value="ecole_informatique" >École Nationale Supérieure d'Informatique </option>
+                <option value="ecole_ia_alger" > École Nationale Supérieure en Intelligence Artificielle Alger </option>
+                <option value="ecole_mathematiques" >École Nationale Supérieure en Mathématiques Alger Pôle de Sidi Abdellah </option>
+                <option value="ecole_veterinaire" > École Nationale Supérieure Vétérinaire</option>
+                <option value="ens_kouba" >École Normale Supérieure - Kouba </option>
+                <option value="ens_bouzareah" > École Normale Supérieure de Bouzaréah </option>
+                <option value="ens_sourds_muets" >École Normale Supérieure des Sourds-Muets</option>
+                <option value="ecole_architecture" > École Polytechnique d'Architecture et d'Urbanisme Le Moudjahid Hocine Ait Ahmed</option>
+                <option value="mathematiques_informatique" > Mathématiques et Informatio </option>
+                <option value="sciences_economiques" > Sciences Économiques, de Gestion et Sciences Commerciales</option>
+                <option value="univ_alger_3" > Université Alger 3 </option>
+                <option value="univ_alger_1" >  University of Alger 1</option>
+                <option value="univ_alger_2" > University of Alger 2  </option>
+                <option value="univ_formation_continue" >Université de la Formation Continue </option>
+                <option value="univ_sante_alger" >Université des Sciences de la Santé Alger </option>
+                <option value="usthb" > Université des Sciences et de la Technologie Houari Boumediene Alger   </option> </select>
+
+
+                
+        </form>
+    <div>
+        <h4>Photo d'identité</h4>
+        <div >
+            <p class="cas">Exemple de format de photo d'identité :</p>
+            <img src="Capture d'écran 2025-12-12 074615.png"  class="photo">
+         </div>
+        <div class="fichier">
+            <form>
+                <label for="files"></label>
+                <input type="file" id="files" name="files" >
+            </form> 
+        </div>       
+        <h6>Veuillez insérer la photo d'identité qui sera utilisée pour votre carte d'abonnement DOU <br> JPEG/PNG, max 3 MB</h6>
+    </div>
+    <button class="app" ><h3> Soumettre ma demande </h3></button>
+    <div class="text">
+        <p class="fin">En cas de problème, demande d'information ou modification, veuillez contacter le service client SETRAM via <a href="https://www.setram.dz/customer/login" >ce lien</a> </p>
+    </div>
+  </body>
+</html>
+

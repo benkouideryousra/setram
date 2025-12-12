@@ -1,0 +1,86 @@
+body {
+  background-color: #f9fafb;
+  font-family: "Arial", sans-serif;
+}
+.text {
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 249);
+  margin-top: 20px;
+  margin-left: 10px;
+  border-color: rgb(214, 214, 216);
+}
+.v {
+  border: 1px solid rgb(214, 214, 216);
+  border-radius: 3px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 249);
+  margin-right: 20px;
+  width: 1500px;
+}
+.model {
+  border-radius: 50%; /*  This makes it a circle */
+  margin-left: 20px;
+  width: 90px;
+}
+.titl {
+  padding-right: 750px;
+}
+h4 {
+  padding-left: 35px;
+}
+
+input {
+  font-size: 14px;
+  border-radius: 4px;
+  width: 300px;
+  border-color: rgb(214, 214, 216);
+  padding: 6px;
+}
+.new {
+  border-radius: 4px;
+  font-size: 20px;
+  width: 302px;
+}
+.cas {
+  padding-left: 540px;
+}
+.photo {
+  padding-left: 10%;
+}
+.fichier {
+  border: 1px solid rgb(224, 224, 224);
+  margin-left: 30px;
+  border-radius: 8px;
+  width: 1420px;
+}
+#files {
+  width: 35%;
+  border: 1px gray;
+  border-radius: 2px;
+}
+h6 {
+  padding-left: 35px;
+  color: rgb(161, 159, 159);
+}
+.app {
+  margin-left: 35px;
+  font-size: 12px;
+  width: 96%;
+  color: #fbfbfb;
+  background-color: rgb(3, 4, 53);
+  border-radius: 3px;
+}
+
+.fin {
+  padding-left: 450px;
+  color: rgb(161, 159, 159);
+}
+.go {
+  list-style-type: none;
+  display: flex;
+}
+
